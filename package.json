@@ -1,0 +1,29 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "WebSocket — Live Quiz Game",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzianisshax/node-websockets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzianisshax/node-websockets/issues"
+  },
+  "homepage": "https://github.com/dzianisshax/node-websockets#readme",
+  "dependencies": {
+    "ws": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
