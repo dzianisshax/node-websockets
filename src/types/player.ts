@@ -1,3 +1,5 @@
+import { WebSocket } from "ws";
+
 export interface Player {
   name: string;
   index: string;
